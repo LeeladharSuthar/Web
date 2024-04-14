@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reservations</title>
+    <link rel="stylesheet" href="./reservations.css" />
+  </head>
+  <body>
+    <header>
+      <a href="./home.html" class="logo">Live Aqua Beach Resort</a>
+      <div>
+        <ul>
+          <li><a href="./home.html">Home</a></li>
+          <li>
+            <a href="#" style="border-bottom: 2px solid white">Reserations</a>
+          </li>
+          <li><a href="./restaurant.html">Restaurant</a></li>
+        </ul>
+      </div>
+      <a href="./admin.html" class="admin">Admin</a>
+    </header>
+    <div class="main">
+      <div>
+        <img src="./assets/img-1-bg.jpg" alt="" />
+        <div>
+          <form action="">
+            <h3>Reservations at Live Aqua</h3>
+            <p>
+              Reserve a table at our exquisite restaurants. We'll reach out to
+              confirm your booking and make your Live Aqua experience
+              unforgettable.
+            </p>
+            <label for="name">Full Name:</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Your Full Name"
+            />
+            <br />
+            <label for="mail">Email Address:</label>
+            <input
+              type="email"
+              name="mail"
+              id="mail"
+              placeholder="yourname@example.com"
+            />
+            <br />
+            <label for="guests">Number of Guests:</label>
+            <input
+              type="number"
+              name="guests"
+              id="guests"
+              placeholder="Number of Guests"
+            />
+            <div class="arrival-departure">
+              <div class="arrival">
+                <label for="arrival">Arrival Date:</label>
+                <input type="datetime-local" name="arrival" id="arrival" />
+              </div>
+              <div class="departure">
+                <label for="departure">Departure Date:</label>
+                <input type="datetime-local" name="departure" id="departure" />
+              </div>
+            </div>
+            <div class="drop">
+              <label for="room">Preferred Room</label>
+              <select name="room" id="room">
+                <option value="#" disabled selected>Select one</option>
+                <option value="single">Single Room</option>
+                <option value="duplex">Delux Room</option>
+              </select>
+            </div>
+            <p>Total: &#8377;1000</p>
+            <button type="submit">MAKE RESERVATION</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-one">
+        <h3>Live Aqua Beach Resort</h3>
+        <p>
+          &nbsp;&nbsp;&nbsp;Live Aqua Beach Resort is a luxurious hotel located
+          in Cancun, known for its exquisite amenities and stunning oceanfront
+          views. The resort offers an array of facilities, including multiple
+          pools, spa services, fine dining restaurants, and exclusive lounges,
+          ensuring an unforgettable experience for its guests.
+        </p>
+      </div>
+      <div class="footer-two">
+        <h3>Services</h3>
+        <ul>
+          <li><a href="./home.html">Home</a></li>
+          <li><a href="#">Reservations</a></li>
+          <li><a href="./restaurant.html">restaurants</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-three">
+        <h3>Contact</h3>
+        <ul>
+          <li>
+            Blvd. Kukulcan KM. 12.5, Zona Hotelera, 77500 Cancún, Q.R., Mexico
+          </li>
+          <li>info@liveaquacancun.com</li>
+          <li>+52 (998) 123 4567</li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
