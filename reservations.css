@@ -123,6 +123,7 @@ footer {
 .main > div > img {
   height: 90%;
   border-radius: 10px;
+  width: 30%;
 }
 .main > div > div {
   width: 60%;

@@ -291,3 +291,5 @@ text-align: justify;
 .rooms > div:nth-child(even){
     flex-direction: row-reverse;
 }
+
+ 
